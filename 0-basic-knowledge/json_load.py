@@ -1,14 +1,14 @@
 from pathlib import Path
 import json
 
-def fuckzyt():
-    path = Path('zyt.json')
+def get_name():
+    path = Path('name.json')
     contents = path.read_text()
-    zyt = json.loads(contents)
+    text = json.loads(contents)
 
-    print(f"i love you {zyt}")
+    print(f"i love you {text}")
 
     if path.exists(): # use exists() to judge whether it exists
-        return("张语桐你的骚逼真臭")
+        return "Exists!"
     else:
-        return(f"i want to fuck you everyday, {zyt}")
+        return f"Do not exists"

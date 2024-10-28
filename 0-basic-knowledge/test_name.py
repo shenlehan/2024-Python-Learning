@@ -1,6 +1,6 @@
-from json_load import fuckzyt
+from json_load import get_name
 
-def test_fuck_zyt():
-    zyt = fuckzyt()
+def test_get_name():
+    name = get_name()
     
-    assert zyt != '张语桐你的骚逼真臭'
+    assert name == 'name'
