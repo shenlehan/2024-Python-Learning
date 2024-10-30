@@ -6,9 +6,9 @@ def get_name():
     contents = path.read_text()
     text = json.loads(contents)
 
-    print(f"i love you {text}")
+    print(f"##########{text}")
 
     if path.exists(): # use exists() to judge whether it exists
-        return "Exists!"
+        return f"{text}" 
     else:
         return f"Do not exists"
