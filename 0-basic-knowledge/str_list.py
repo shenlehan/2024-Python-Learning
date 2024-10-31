@@ -36,3 +36,23 @@ print("{π:10.5f}".format(π=pi))
 # : 代替了 % 的作用，也可以这么写
 print("{:10.5f}".format(pi))
 
+dic = {
+    1: [1, 2], # it could be anything you want, so powerful
+    2: [3, 4, 5],
+    3: "Hello"
+}
+print(dic[1])
+
+for i, j in dic.items():
+    print(f"key is %d and value is {j}" % (i))
+
+for i in dic: # print key value
+    print(i)
+
+print(dic.values())
+
+# some auguments to print():
+print("Hello", "world", sep='*' * 10, end="")
+# sep is the seprating character
+# end is the ending charater, and it's '\n' for default
+print("hello again")
