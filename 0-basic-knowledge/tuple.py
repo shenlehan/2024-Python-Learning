@@ -6,3 +6,6 @@ print(t)
 
 t = (4, 5, 6)
 print(t)
+
+t3 = 3 * (42, )
+print(t3)
