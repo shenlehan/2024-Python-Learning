@@ -18,7 +18,6 @@ tmp.greet("dmyjqwdy", "hi")
 # but this will make it public:
 tmp._person__get_sex() # "_Classname_privatefunction"
 
-
 class Filter:
     def __init__(self):
         self.blocked = []
