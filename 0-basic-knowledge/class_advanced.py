@@ -45,3 +45,9 @@ class Bird:
 class NewBird(Bird):
     def __init__(self):
         super().__init__() # use father class's construct function
+        self.song = "Hello World!"
+
+    # def get_size(self):
+    #     print(__len__(self))
+
+NB = NewBird()
